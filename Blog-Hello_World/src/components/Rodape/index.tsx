@@ -4,6 +4,7 @@ const Rodape = () => {
   return (
     <footer className={style.rodape}>
       <img src={MarcaRegistrada} alt="Logo Marca Registrada" />
+      Desenvolvido por Nicolas nas aulas da Alura
     </footer>
   );
 };
