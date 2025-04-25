@@ -2,6 +2,7 @@ import { PostCard } from "../../components/PostCard";
 
 import stylePosts from "./inicio.module.css";
 import stylePost from "../../components/PostCard/post.module.css";
+import styleBotao from "../../components/PostCard/botao.module.css";
 
 import posts from "../../../public/json/posts.json";
 import { Link } from "react-router";
@@ -23,7 +24,7 @@ const Inicio = () => {
                   <PostCard.Titulo className={stylePost.titulo}>
                     {post.titulo}
                   </PostCard.Titulo>
-                  <PostCard.Botao className={stylePost.botaoLer}>
+                  <PostCard.Botao className={styleBotao.botaoPrincipal}>
                     Ler
                   </PostCard.Botao>
                 </PostCard.Root>
