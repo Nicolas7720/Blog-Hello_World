@@ -21,6 +21,7 @@ function AppRoutes() {
             <Route path="sobremim" element={<Sobre_Mim />} />
           </Route>
           <Route path="posts/:id" element={<Post />} />
+          <Route path="*" element={<NaoEncontrada />} />
 
           {/* Na rota "/", a estrutura a ser renderizada é:
           
@@ -36,8 +37,6 @@ function AppRoutes() {
               <SobreMim/>
             </PaginaPadrao>
           */}
-
-          <Route path="*" element={<NaoEncontrada />} />
         </Routes>
         <Rodape />
       </BrowserRouter>

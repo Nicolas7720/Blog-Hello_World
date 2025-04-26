@@ -12,7 +12,7 @@ const PaginaPadrao = () => {
           <Banner.Titulo className={stylesBanner.titulo} text="Olá, Mundo!" />
           <Banner.Paragrafo
             className={stylesBanner.paragrafo}
-            text="Bem-vindos! Eu sou Nícolas Antônio, estudante de Front-end e Engenharia de Software. Aqui falarei sobre tecnologia"
+            text="Bem-vindos! Eu sou Nícolas Antônio, estudante de Front-end e Engenharia de Software."
           />
         </div>
         <div className={stylesBanner.imagens}>

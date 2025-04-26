@@ -11,27 +11,25 @@ const Inicio = () => {
   return (
     <main>
       <ul className={stylePosts.posts}>
-        {posts.map((post) => {
-          return (
-            <li key={post.id}>
-              <Link to={`/posts/${post.id}`}>
-                <PostCard.Root className={stylePost.post}>
-                  <PostCard.Capa
-                    className={stylePost.capa}
-                    src={`../../../public/posts/${post.id}/capa.png`}
-                    alt="Imagem de capa do post"
-                  />
-                  <PostCard.Titulo className={stylePost.titulo}>
-                    {post.titulo}
-                  </PostCard.Titulo>
-                  <PostCard.Botao className={styleBotao.botaoPrincipal}>
-                    Ler
-                  </PostCard.Botao>
-                </PostCard.Root>
-              </Link>
-            </li>
-          );
-        })}
+        {posts.map((post) => (
+          <li key={post.id}>
+            <Link to={`/posts/${post.id}`}>
+              <PostCard.Root className={stylePost.post}>
+                <PostCard.Capa
+                  className={stylePost.capa}
+                  src={`../../../public/posts/${post.id}/capa.png`}
+                  alt="Imagem de capa do post"
+                />
+                <PostCard.Titulo className={stylePost.titulo}>
+                  {post.titulo}
+                </PostCard.Titulo>
+                <PostCard.Botao className={styleBotao.botaoPrincipal}>
+                  Ler
+                </PostCard.Botao>
+              </PostCard.Root>
+            </Link>
+          </li>
+        ))}
       </ul>
     </main>
   );
