@@ -1,7 +1,7 @@
 import { LinkHTMLAttributes, ReactNode } from "react";
 import { Link } from "react-router-dom";
 
-interface MenuLinkProps extends LinkHTMLAttributes<HTMLLinkElement> {
+interface MenuLinkProps extends LinkHTMLAttributes<HTMLAnchorElement> {
   children: ReactNode;
   to: string;
 }
