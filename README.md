@@ -33,4 +33,4 @@ O projeto foi desenvolvido utilizando o padrão de composição para separar res
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Nicolas7720/Blog-Hello_World/tree/main
+   git clone https://github.com/Nicolas7720/Blog-Hello_World
