@@ -45,7 +45,8 @@ npm run dev
 
 🖼️ Prints ou Demonstração
 
-![Uploading BlogHelloWorld.gif…]()
+![BlogHelloWorld](https://github.com/user-attachments/assets/3ed8f49b-5a70-406d-aa5b-766827de46f1)
+
 
 
 ---
