@@ -44,10 +44,7 @@ npm install
 npm run dev
 
 🖼️ Prints ou Demonstração
-
-![BlogHelloWorld](https://github.com/user-attachments/assets/acc6bbb1-d8e7-45c6-860a-2aee7d370ed5)
-
-
+![BlogHelloWorld](https://github.com/user-attachments/assets/da785d2d-a86b-45e3-809c-335730c3e28e)
 
 
 ---
